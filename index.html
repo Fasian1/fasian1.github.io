@@ -6,12 +6,12 @@
 <body>
     <script type="text/javascript">
     var dontclick = 0;
-    function onClick() {
+    function onClickDont() {
         dontclick += 1;
         document.getElementById("dontclick").innerHTML = dontclick;
     };
     </script>
-    <button type="button" onClick="onClick()">Do Not Click</button>
+    <button type="button" onClick="onClickDont()">Do Not Click</button>
     <p>dontclick: <a id="dontclick">0</a></p>
 
 </body>

@@ -102,3 +102,18 @@ body {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+audio {
+  float: right;
+  margin-top:0;
+}
+
+
+.container {
+max-width:200px;
+position:absolute;
+top:0;
+right:0;
+}
+
+
+

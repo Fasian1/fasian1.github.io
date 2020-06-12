@@ -67,7 +67,7 @@ button:hover {
 
 .body {
   /*#background-image: url("http://i.stack.imgur.com/SBv4T.gif");*/
-  background-image: url("images/underconstruction.gif"), url("http://i.stack.imgur.com/SBv4T.gif");
+  background-image: url("images/underconstruction.gif"), url("images/slowblink.gif");
   background-repeat: no-repeat, repeat;
   background-color: #000000;
   height: 500px;
@@ -76,8 +76,7 @@ button:hover {
 }
 
 .body {
-  /*#background-image: url("http://i.stack.imgur.com/SBv4T.gif");*/
-  background-image: url("images/underconstruction.gif"), url("http://i.stack.imgur.com/SBv4T.gif");
+  background-image: url("images/underconstruction.gif"), url("images/slowblink.gif");
   background-repeat: repeat, no-repeat;
   background-color: #000000;
   height: 500px;
@@ -86,8 +85,7 @@ button:hover {
 }
 
 body {
-  /*#background-image: url("http://i.stack.imgur.com/SBv4T.gif");*/
-  background-image: url("http://i.stack.imgur.com/SBv4T.gif"), url("images/underconstruction.gif");
+  background-image: url("images/slowblink.gif"), url("images/underconstruction.gif");
   background-repeat: no-repeat, repeat;
   background-color: #000000;
   height: 500px;

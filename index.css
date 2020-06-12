@@ -1,3 +1,4 @@
+
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 
@@ -56,3 +57,50 @@ button:hover {
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.body {
+  /*#background-image: url("http://i.stack.imgur.com/SBv4T.gif");*/
+  background-image: url("images/underconstruction.gif"), url("http://i.stack.imgur.com/SBv4T.gif");
+  background-repeat: no-repeat, repeat;
+  background-color: #000000;
+  height: 500px;
+  background-position: center;
+  background-size: cover, 200px;
+}
+
+.body {
+  /*#background-image: url("http://i.stack.imgur.com/SBv4T.gif");*/
+  background-image: url("images/underconstruction.gif"), url("http://i.stack.imgur.com/SBv4T.gif");
+  background-repeat: repeat, no-repeat;
+  background-color: #000000;
+  height: 500px;
+  background-position: center;
+  background-size: 200px, cover;
+}
+
+body {
+  /*#background-image: url("http://i.stack.imgur.com/SBv4T.gif");*/
+  background-image: url("http://i.stack.imgur.com/SBv4T.gif"), url("images/underconstruction.gif");
+  background-repeat: no-repeat, repeat;
+  background-color: #000000;
+  height: 500px;
+  background-position: center;
+  background-size: cover, 200px;
+}
+
+.hero-image {
+  background-image: url("photographer.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+

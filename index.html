@@ -1,10 +1,11 @@
 <html>
+<body class=".body">
   <head>
     <title>Simon Ko</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
 <head>
-    <title>Do Not Click</title>
+    <title>Do Not Click Me</title>
 </head>
 
 <body>
@@ -15,8 +16,8 @@
         document.getElementById("dontclick").innerHTML = dontclick;
     };
     </script>
-    <button type="button" onClick="onClickDont()">Do Not Click</button>
-    <p>Clicks: <b id="dontclick">0</b></p>
+    <button type="button" onClick="onClickDont()">Do Not Click Me</button>
+    <p style="color:white">Clicks: <b id="dontclick">0</b></p>
 </body>
 
 <head>
@@ -32,11 +33,17 @@
     };
     </script>
     <button type="button" onClick="onClick()">Click me</button>
-    <p>Clicks: <b id="clicks">0</b></p>
+    <p style="color:white">Clicks: <b id="clicks">0</b></p>
 </body>
 
 <body>
-    <h1 id="simon-ko">Simon Ko</h1>                  
-<img src=”images/underconstruction.gif” alt=”animated” />
+    <font size="+2">
+    <h1 id="simon-ko" class="rainbow">Simon Ko</h1>
+
+    <p class="rainbow"><b>This website is under construction right now. Move along, there's nothing to see here folks... for now. </b></p>
+<!---<img src="images/underconstruction.gif" alt="underconstruction" class="center"/>--->
+    </font>
   </body>
 </html>
+
+
